@@ -1,0 +1,29 @@
+.hobby-list {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 1rem;
+}
+
+.hobby-card {
+  background-color: white;
+
+  padding: 1.5rem;
+
+  border-radius: 20px;
+
+  text-align: center;
+}
+
+.hobby-icon {
+  font-size: 2.5rem;
+
+  margin-bottom: 0.8rem;
+}
+
+.hobby-card h3 {
+  color: #4d5bf0;
+
+  margin-bottom: 0.5rem;
+}
